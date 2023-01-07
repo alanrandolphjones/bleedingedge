@@ -7,28 +7,42 @@ function App() {
 
       <div className="content">
         <p>
-          On December 4, join us for Kurt Walker's <strong>s01e03</strong>
+          On January 18th, come join us for the Canadian premiere of Michael M.
+          Bilandic's <em>Happy Life</em> at Innis Town Hall in Toronto, with the
+          director in attendance!
         </p>
+
         <p>
-          A <strong>groundbreaking</strong> cyber-romance for the ages!
+          Executive produced by New York cinema legend Abel Ferrara (
+          <em>The Driller Killer</em>, <em>King of New York</em>,{" "}
+          <em>Bad Lieutenant</em>), <em>Happy Life</em> is the debut feature of
+          Michael M. Bilandic (<em>Hellaware</em>, <em>Project Space 13</em>), a
+          mainstay of New York's underground DIY filmmaking scene.
         </p>
+
         <p>
-          Preceded by three <strong>excellent</strong> short films!
+          Happy Life stars Tom McCaffrey as Keith, the owner of New York Tunez,
+          one of the last techno record stores in a rapidly gentrifying East
+          Village that's more suited for hipster affectations than glow sticks.
+          Owing months of rent and staring eviction in the face, Keith decides
+          to put on an old school rave to raise the money he needs to keep the
+          store open.
         </p>
+
         <p>
-          <strong>Late Summer</strong> from <strong>Winnipeg wonder</strong>{" "}
-          Ryan Steel!
+          Partially a comedy, and partially a meditation on aging in a city that
+          constantly changes, <em>Happy Life</em> barely made a dent on its
+          initial release in 2011, but served as an early launching pad for
+          famed cinematographer Sean Price Williams (<em>Good Time</em>,{" "}
+          <em>Funny Pages</em>), who shot it on the already defunct Sony PD150,
+          as well as early acting roles for filmmaker Alex Ross Perry (
+          <em>The Color Wheel</em>, <em>Her Smell</em>) and Kate Lyn Sheil (
+          <em>A Wonderful Cloud</em>, <em>She Dies Tomorrow</em>).
         </p>
-        <p>
-          <strong>Death Game</strong>, a <strong>shocking</strong> tale from
-          Jacqueline Kramer!
-        </p>
-        <p>
-          <strong>Overpass</strong> will have you <strong>over the moon</strong>
-          ! From Zach Litzgus and Alex Acton-Jones
-        </p>
-        <p>The Pilot, Second Floor, 22 Cumberland Street, Toronto</p>
-        <p>Doors at 7:30pm, screening begins at 8pm, PWYC</p>
+
+        <p>Innis Town Hall,2 Sussex Ave, Toronto</p>
+        <p>January 18, 2023</p>
+
         <div className="icon">
           <a href="https://www.instagram.com/bleeding.edge.movies/">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -37,7 +51,7 @@ function App() {
           </a>
         </div>
       </div>
-      <div className="video-wrap">
+      {/* <div className="video-wrap">
         <div className="video-container">
           <iframe
             width="560"
@@ -49,6 +63,32 @@ function App() {
             allowFullScreen
           ></iframe>
         </div>
+      </div> */}
+      <div className="video-wrap">
+        <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
+          <iframe
+            title="video-embed"
+            src="https://player.vimeo.com/video/785618970?h=104c48b4a9"
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+            }}
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+        <p>
+          <a href="https://vimeo.com/785618970">
+            Bleeding Edge Presents: Happy Life
+          </a>{" "}
+          from <a href="https://vimeo.com/user116836095">Alan Jones</a> on{" "}
+          <a href="https://vimeo.com">Vimeo</a>.
+        </p>
       </div>
     </div>
   );
