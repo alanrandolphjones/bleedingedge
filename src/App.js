@@ -7,27 +7,28 @@ function App() {
 
       <div className="content">
         <p>
-          On January 18th, come join us for the Canadian premiere of Michael M.
-          Bilandic's <em>Happy Life</em> at Innis Town Hall in Toronto, with the
-          director in attendance!
+          On February 16th, We will be collaborating with <a href="https://www.inthemoodmagazine.com/">In The Mood</a> for a launch and screening event at <a href="https://www.thepilot.ca/">The Pilot</a> (2nd floor)!
         </p>
 
         <p>
-          Executive produced by New York cinema legend Abel Ferrara (
-          <em>The Driller Killer</em>, <em>King of New York</em>,{" "}
-          <em>Bad Lieutenant</em>), <em>Happy Life</em> is the debut feature of
-          Michael M. Bilandic (<em>Hellaware</em>, <em>Project Space 13</em>), a
-          mainstay of New York's underground DIY filmmaking scene.
+          This fantastic event will feature readings by:
         </p>
+        <ul>
+          <li>EJ Kneifel</li>
+          <li>Stella/Tago</li>
+          <li>Fan Wu</li>
+          <li>Sennah Yee</li>
+        </ul>
 
         <p>
-          Happy Life stars Tom McCaffrey as Keith, the owner of New York Tunez,
-          one of the last techno record stores in a rapidly gentrifying East
-          Village that's more suited for hipster affectations than glow sticks.
-          Owing months of rent and staring eviction in the face, Keith decides
-          to put on an old school rave to raise the money he needs to keep the
-          store open.
+          Plus a selection of short films by some fantastic artists!
         </p>
+
+        <ul>
+          <li><em>It's What Each Person Needs</em> (Sophy Romvari)</li>
+          <li><em>Day Off</em> (Steffi Tupi)</li>
+          <li><em>Big Smoke Pt 1</em> (Raphael Lotus Jackson)</li>
+        </ul>
 
         <p>
           Partially a comedy, and partially a meditation on aging in a city that
@@ -40,8 +41,8 @@ function App() {
           <em>A Wonderful Cloud</em>, <em>She Dies Tomorrow</em>).
         </p>
 
-        <p>Innis Town Hall,2 Sussex Ave, Toronto</p>
-        <p>January 18, 2023</p>
+        <p>The Pilot, 2nd floor, 22 Cumberland St, Toronto</p>
+        <p>February 16, 2023</p>
 
         <div className="icon">
           <a href="https://www.instagram.com/bleeding.edge.movies/">
@@ -51,6 +52,7 @@ function App() {
           </a>
         </div>
       </div>
+      {/* YOUTUBE EMBED */}
       {/* <div className="video-wrap">
         <div className="video-container">
           <iframe
@@ -64,7 +66,8 @@ function App() {
           ></iframe>
         </div>
       </div> */}
-      <div className="video-wrap">
+      {/* VIMEO EMBED */}
+      {/* <div className="video-wrap">
         <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
           <iframe
             title="video-embed"
@@ -89,7 +92,7 @@ function App() {
           from <a href="https://vimeo.com/user116836095">Alan Jones</a> on{" "}
           <a href="https://vimeo.com">Vimeo</a>.
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }
