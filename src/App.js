@@ -30,17 +30,6 @@ function App() {
           <li><em>Big Smoke Pt 1</em> (Raphael Lotus Jackson)</li>
         </ul>
 
-        <p>
-          Partially a comedy, and partially a meditation on aging in a city that
-          constantly changes, <em>Happy Life</em> barely made a dent on its
-          initial release in 2011, but served as an early launching pad for
-          famed cinematographer Sean Price Williams (<em>Good Time</em>,{" "}
-          <em>Funny Pages</em>), who shot it on the already defunct Sony PD150,
-          as well as early acting roles for filmmaker Alex Ross Perry (
-          <em>The Color Wheel</em>, <em>Her Smell</em>) and Kate Lyn Sheil (
-          <em>A Wonderful Cloud</em>, <em>She Dies Tomorrow</em>).
-        </p>
-
         <p>The Pilot, 2nd floor, 22 Cumberland St, Toronto</p>
         <p>February 16, 2023</p>
 
